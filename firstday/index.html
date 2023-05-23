@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Id checker</h1>
+    <div class="log">
+    <form action="#">
+       User-Id  :
+        <input type="text" class="uid" placeholder="xx-xxxxx-x" id="uid" >
+       Password :
+        <input type="text" class="pass" placeholder="Enter Six digits" id="pass" > 
+        <input type="button" value="Submit" onclick="loginCheck()" >
+        
+    </form>
+</div>
+</body>
+</html>
+<script  src="script.js"></script>
+<style>
+    .uid{
+       
+        background-color: rgba(59, 59, 59, 0.293);
+    }
+    .pass{
+        background-color: rgba(59, 59, 59, 0.293);
+        
+    }
+    .log{
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        translate: -50%;
+        border: 2px solid crimson;
+    }
+
+    
+</style>
